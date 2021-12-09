@@ -1,0 +1,18 @@
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+.nav__list{
+    display: flex;
+    gap: 32px;
+}
+.nav__link{
+    font: var(--mobile-body2bold);
+    color: var(--black);
+}
+.header__actions{
+    display: flex;
+    gap: 24px;
+}

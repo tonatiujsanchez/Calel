@@ -1,0 +1,33 @@
+.hero__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 120px 0;
+}
+.hero__info{
+    width: 50%;
+}
+.hero__title{
+    font: var(--desktop-h1);
+    margin-bottom: 64px;
+}
+.hero__form{
+    box-sizing: content-box;
+    display: inline-block;
+    border-radius: 32px;
+    border: 1px solid var(--grey);
+    overflow: hidden;
+    background-color: rgba(206, 206, 206, 0.1);
+}
+.hero__input{
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    font: var(--desktop-body3-regular);
+    background-color: transparent;
+}
+.hero__input::placeholder{
+    opacity: 0.5;
+}

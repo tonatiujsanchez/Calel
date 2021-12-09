@@ -1,0 +1,28 @@
+.advantage{
+    margin: 96px 0;
+}
+.advantage .advantage__title{
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+.advantage__single{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 96px;
+}
+.advantage__single:nth-child(even) .advantage__info{
+    order: 2;
+}
+
+.advantage__info{
+    max-width: 50%;
+}
+.advantage__subtitle{
+    display: inline-block;
+    margin-bottom: 24px;
+}
+.advantage__name{
+    font: var(--desktop-h3);
+    margin-bottom: 24px;
+}

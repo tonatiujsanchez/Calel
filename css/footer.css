@@ -1,0 +1,22 @@
+.footer{
+    padding: 120px 0;
+    border-top: 2px dashed var(--grey);
+}
+.footer__content{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 16px;
+}
+.footer__logo{
+    display: inline-block;
+}
+.footer__title{
+    font: var(--desktop-h5-black);
+}
+.footer__item{
+    margin-bottom: 24px;
+}
+.footer__link{
+    color: var(--dark);
+    font: var(--desktop-body2-regular);
+}

@@ -1,0 +1,42 @@
+.benefices{
+    margin: 120px 0 120px;
+}
+.benefices__title{
+    margin-bottom: 64px;
+    margin: 0 auto 64px;
+}
+.benefices__desc{
+    font: var(--desktop-h5-medium);
+    text-align: center;
+    max-width: 860px;
+    margin: 0 auto 96px;
+}
+.benefices__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.benefice{
+    width: 50%;
+}
+.benefices_img{
+    max-width: 450px;
+    margin-bottom: 64px;
+}
+.benefice__title{
+    font: var(--desktop-h5-black);
+}
+.benefice__desc{
+    font: var( --desktop-body1-medium);
+}
+.benefices .benefices__btn{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid var(--black);
+    text-align: center;
+}
+.benefices__btn:hover{
+    background-color: var(--black);
+    color: var(--white);
+}

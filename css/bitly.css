@@ -1,0 +1,31 @@
+.bitly{
+    padding-bottom: 96px;
+    margin-bottom: 96px;
+}
+.bitly__content{
+    display: flex;
+    gap: 64px;
+    position: relative;
+}
+.bitly___img{
+    min-width: 400px;
+    border-radius: 32px;
+    overflow: hidden;
+}
+.bitly__subtitle{
+    display: inline-block;
+    margin-bottom: 32px;
+}
+.bitly__title{
+    font: var(--desktop-h4);
+    margin-bottom: 32px;
+}
+.bitly__author{
+    font: var(--desktop-h5-black);
+}
+.bitly__figure{
+    width: 180px;
+    position: absolute;
+    right: 0;
+    bottom: -90px;
+}

@@ -1,0 +1,22 @@
+.trial{
+    margin: 120px 0;
+}
+.trial__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trial__title{
+    font: var(--desktop-h1);
+    margin-bottom: 32px;
+}
+.trial__info{
+    max-width: 800px;
+}
+.trial__desc{
+    font: var(--desktop-h5-medium);
+}
+.trial__link{
+    color: var(--black);
+    font: var(--desktop-body1-medium);
+}
