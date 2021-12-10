@@ -24,3 +24,33 @@
 .cliente__img{
     height: 28px;
 }
+@media screen and (max-width: 767px) {
+    .clientes__content{
+        gap: 40px;
+    }
+    .cliente{
+        min-width: 130px;
+        text-align: center;
+    }
+    .cliente__img{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .clientes{
+        padding: 64px 0;
+    }
+    .clientes__title{
+        font: var(--mobile-h4);
+        font: var(--mobile-h5black);
+        margin-bottom: 40px;
+    }
+    .clientes__content{
+        gap: 16px;
+    }
+
+    .cliente__img{
+        height: 20px;
+    }
+}

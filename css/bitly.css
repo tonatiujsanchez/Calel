@@ -29,3 +29,26 @@
     right: 0;
     bottom: -90px;
 }
+@media screen and (max-width: 960px) {
+    .bitly__content{
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    .bitly___img{
+        width: 60%;
+        margin: auto;
+    }
+    .bitly__figure{
+        bottom: -160px;
+    }
+}
+@media screen and (max-width: 678px) {
+    .bitly___img{
+        min-width: auto;
+        width: 100%;
+    }
+    .bitly__title{
+        font: var(--mobile-h4);
+    }
+
+}

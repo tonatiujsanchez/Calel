@@ -15,14 +15,17 @@
 </head>
 
 <body>
-    <header class="header">
+    <a href="#" class="scroll-top" id="scroll-top">
+        <img src="./images/arrow-up.png" alt="Arrow Up icon">
+    </a>
+    <header class="header" id="header">
         <div class="header__container container">
             <div class="header__content">
                 <a href="#" class="header__logo">
                     <img src="./images/logo.png" alt="Logo Calel">
                 </a>
                 <nav class="header__navbar">
-                    <ul class="nav__list">
+                    <ul class="nav__list" id="menu-list">
                         <li class="nav__item"><a href="#" class="nav__link">Particulares</a></li>
                         <li class="nav__item"><a href="#" class="nav__link">Equipos</a></li>
                         <li class="nav__item"><a href="#" class="nav__link">Producto</a></li>
@@ -31,15 +34,15 @@
                     </ul>
                 </nav>
                 <div class="header__actions">
-                    <a href="#" class="btn-secondary">Iniciar sesión</a>
+                    <a href="#" class="btn-secondary btn-login" id="btn-login">Iniciar sesión</a>
                     <a href="#" class="btn-primary">Regístrese</a>
+                    <img onclick="menuToggle()" src="./images/menu.svg" alt="Menu icon" class="menu-icon">
                 </div>
             </div>
         </div>
     </header>
 
     <main>
-
         <section class="hero">
             <div class="hero__container container">
                 <div class="hero__content">
@@ -203,11 +206,11 @@
                 <div class="trial__content">
                     <div class="trial__info">
                         <h2 class="trial__title">Pruebe Calel gratis</h2>
-                        <p class="trial__desc">Tras su prueba de 14 días de nuestro plan Profesional, disfrute de la versión gratuita de Calendly para siempre.</p>
+                        <a href="#" class="trial__img">
+                            <img src="./images/registrese-image.png" alt="Registre image">
+                        </a>
                     </div>
-                    <div class="trial__img">
-                        <img src="./images/registrese-image.png" alt="Registre image">
-                    </div>
+                    <p class="trial__desc">Tras su prueba de 14 días de nuestro plan Profesional, disfrute de la versión gratuita de Calendly para siempre.</p>
                 </div>
                 <p>Para consultar sobre nuestro planes Enterprise, haga clic <a href="#" class="trial__link">aquí.</a></p>
             </div>
@@ -309,5 +312,7 @@
         </div>
     </footer>
 </body>
+
+<script src="./js/index.js"></script>
 
 </html>

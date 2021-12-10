@@ -43,7 +43,9 @@
   --mobile-body2bold: 700 1rem/1.5rem Inter;  
 
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   color: var(--black);
   background-color: var(--grey-bg);
@@ -101,6 +103,7 @@ img{
 }
 
 .btn-black{
+  display: inline-block;
   font: var(--desktop-buttons);
   color: var(--white);
   background-color: var(--black);
@@ -130,4 +133,42 @@ img{
   color: var(--black);
   opacity: 0.6;
   text-transform: uppercase;
+}
+.scroll-header{
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+}
+.scroll-top{
+  box-sizing: border-box;
+  display: inline-block;
+  background: var(--primary);
+  width: 48px;
+  height: 48px;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  right: 24px;
+  bottom: 32px;
+  z-index: 5;
+
+  opacity: 0;
+  transition: 0.3s opacity;
+}
+.scroll-top.show-scrollTop{
+    opacity: 0.8;
+}
+.scroll-top.show-scrollTop:hover{
+  opacity: 1;
+}
+
+
+@media screen and (max-width: 767px) {
+  .btn-secondary{
+    width: 100%;
+  }
 }
